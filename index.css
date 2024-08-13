@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(78, 78, 78);
+}
+
+h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: mediumspringgreen;
+    font-family: "Sacramento", cursive;
+    text-align: center;
+}
+
+#result{
+    font-size: 25px;
+    font-weight: bold;
+    color: mediumspringgreen;
+    font-family: "Sacramento", cursive;
+    text-align: center;
+}
+
+.players{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    color: mediumspringgreen;
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    margin-bottom: 20px;
+}
+
+#btn{
+    color: white;
+    background-color: rgb(128, 20, 20);
+    padding: 20px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.btn-cont{
+    text-align: center;
+}
+
+#diceOne{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(128, 20, 20);
+    border-radius: 15px;
+}
+
+#diceTwo{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(128, 20, 20);
+    border-radius: 15px;
+}
+
+.dices{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+
+.dice{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#COne, #CTwo, #CThree, #CFour, #CFive, #CSix, #CSeven, #CEight, #CNine, #CTen, #CEleven, #CTwelve
+{
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    
+} 
+
+
+.invisible{
+    visibility: hidden;
+}
+
+.nothidden{
+    visibility: visible;
+}
